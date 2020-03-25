@@ -6,7 +6,7 @@ require("ignore-styles");
 // Babel presets: https://babeljs.io/docs/en/presets
 require("@babel/register")({
     presets: ["@babel/preset-env", "@babel/preset-react", "@babel/preset-typescript"],
-    extensions: [".es6", ".es", ".jsx", ".js", ".mjs", ".tsx", ".ts"]
+    extensions: [".jsx", ".js", ".tsx", ".ts"]
 })
 
 require("./backend");

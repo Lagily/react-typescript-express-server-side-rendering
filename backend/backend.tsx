@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import React from "react";
 import ReactDOMServer from "react-dom/server";
+// @ts-ignore The .tsx ending seems to be needed, not 100% sure why
 import App from "../src/App.tsx";
 
 const PORT = 60005;
